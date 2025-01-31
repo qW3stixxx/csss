@@ -1,0 +1,17 @@
+div type=s{
+   background-color: yellow;
+   width: 1200px;
+}
+span type=a{
+   color: red;
+   font-size: 1.2cm;
+   font-family: Arial;
+}
+span type=o{
+  font-size: 7mm;
+  font-family: Times New Roman;
+}
+span type=p{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 5mm;
+}
