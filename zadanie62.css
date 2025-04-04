@@ -1,0 +1,14 @@
+p
+{
+font-size:14pt;
+color:navy;
+}
+p:lang(pl)
+{
+font-weight:bold;
+color:black;
+}
+p:lang(en)
+{
+font-style:italic;
+} 
