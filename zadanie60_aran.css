@@ -1,0 +1,25 @@
+   #blok1_aranzhii{
+                    width: 603px;
+                    background-color: green;
+                    font-size: 21px;
+                }
+                
+  #blok2_aranzhii{
+                    width: 603px;
+                    background-color: green;
+                    font-size: 21px;
+                }
+                
+ #blok3_aranzhii{
+                    width: 603px;
+                    background-color: green;
+                    font-size: 21px;
+                }
+                
+ div#blok1_aranzhii {background-color: 00ff00;width:603px;font-size:18mm;} 
+ div#blok2_aranzhii {background-color: 00ff00;width:603px;font-size:18mm;} 
+ div#blok3_aranzhii {background-color: 00ff00;width:603px;font-size:18mm;} 
+                
+ div#blok1_aranzhii:hover {background-color: yellow;font-size:18mm;} 
+ div#blok2_aranzhii:hover {background-color: red;font-size:18mm;}
+ div#blok3_aranzhii:hover {background-color: cyan;font-size:18mm;}
