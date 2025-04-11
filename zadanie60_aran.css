@@ -1,18 +1,25 @@
-   #blok1_aranzhii{
+div {
+    width: 620px;
+    background-color: green;
+    margin-bottom: 3%;
+
+
+
+#blok1_aranzhii{
                     width: 603px;
-                    background-color: green;
+                    background-color: blue;
                     font-size: 21px;
                 }
                 
   #blok2_aranzhii{
                     width: 603px;
-                    background-color: green;
+                    background-color: yellow;
                     font-size: 21px;
                 }
                 
  #blok3_aranzhii{
                     width: 603px;
-                    background-color: green;
+                    background-color: gold;
                     font-size: 21px;
                 }
                 
