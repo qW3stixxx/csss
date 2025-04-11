@@ -2,25 +2,21 @@ div {
     width: 620px;
     background-color: green;
     margin-bottom: 3%;
+ }
+ #blok1_Mysiv:hover{
+    background-color: blue;
+ }
+ #blok2_Mysiv:hover{
+    background-color: yellow;
+ }
+ #blok3_Mysiv:hover{
+    background-color: gold;
+ }
+ div:hover {
+    font-size: 19mm;
+ }
 
 
-
-#blok1_aranzhii{
-                    width: 603px;
-                    background-color: blue;
-                    font-size: 21px;
-                }
-                
-  #blok2_aranzhii{
-                    width: 603px;
-                    background-color: yellow;
-                    font-size: 21px;
-                }
-                
- #blok3_aranzhii{
-                    width: 603px;
-                    background-color: gold;
-                    font-size: 21px;
-                }
-                
+/*hover -> gdy użytkownik najedzie kursorem na dany element
+Mysiv Sviatoslav*/
 
