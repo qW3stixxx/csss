@@ -1,0 +1,11 @@
+p
+{
+font-size:14pt;
+}
+p:first-child
+{
+font-size:10pt;
+font-style:italic;
+}
+
+/*Tymur Aranzhii*/
