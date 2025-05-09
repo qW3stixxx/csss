@@ -1,0 +1,32 @@
+body {
+    background-color: silver;
+}
+p{font-size: 10pt; margin-left: 3%;}
+
+p:first-child{font-size: 9mm; font-style: italic;}
+
+div#pierwszy_aran {
+    width: 780pt;
+    background-color: pink;
+    border: solid 7px violet;
+    border-radius: 17mm;
+}
+
+div#drugi_aran {
+    width: 980pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border: solid 3px black;
+    border-radius: 12mm;
+}
+
+div#trzeci_aran {
+    width: 1180pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border: solid 5px navy;
+    border-radius: 8mm;
+}
+/*Tymur Arazhii*
