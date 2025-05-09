@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(255, 206, 206);
+}
+p {
+    margin-bottom: 2.5%;
+}
+.first:first-letter {
+    font-size: 111pt;
+    color: blue;
+}
+.first {
+    font-size: 25pt;
+    color: lightgreen;
+}
+
+.second::first-letter {
+    font-size: 111pt;
+    color: silver;
+}
+
+.second {
+    font-size: 18pt;
+    color: lightgreen;
+}
+
+h1::first-letter {
+    color: silver;
+    font-size: 120pt;
+}
+
+.third::first-letter {
+    font-size: 100pt;
+}
+
+.third::first-line {
+    color: red;
+    font-size: 17pt;
+}
+
+.third {
+    font-size: 25pt;
+    color: blue;
+}
+
+h1 {
+    color: violet;
+    font-size: 40pt;
+}
+/*Mysiv Sviatoslav*/
