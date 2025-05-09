@@ -1,0 +1,113 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<style>
+body {
+    background-color: gray;
+}
+textarea {
+    width: 90%;
+    height: 40%;
+    resize: none;
+ }
+
+ </style>
+</style>
+</head>
+<body>
+    <h2>HTML-kod</h2>
+    <textarea disabled readonly>
+      <!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title></title>
+      <link rel="stylesheet" href="zadanie66_aran.css">
+   </head>
+   <body>
+      <div class="box">
+         <h1>Pseudoelementem :first-line, który obejmuje formatowaniem całą
+            pierwszą linię.</h1>
+         <textarea class="example" disabled readonly>
+p
+{
+color:navy;
+font-size:12pt;
+}
+p:first-line
+{
+color:red;
+font-size:20pt;
+font-weight:bold;
+}<textarea>
+       </div>
+       
+       <div class="box">
+         <h1>Pseudoelementy :after i :before</h1>
+         <p>
+            Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
+            <b>pseudoelementy: :after oraz :before.</b> Oba elementy służą do umieszczania tekstu przed i za
+            formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.
+         </p>
+         <textarea class="example" disabled readonly>
+p:before
+{
+content:"TO SĄ ĆWICZENIA";
+font-size:15pt;
+font-style:italic;
+font-weight:bold;
+}
+p:after
+{
+content:"AUTOR Król Lew";
+font-size:15pt;
+font-style:italic;
+font-weight:bold;
+}<textarea>
+       </div>
+       
+       <div class="box">
+         <h1>Pseudoelement :first-letter</h1>
+         <p>
+            Pseudoelement :first-letter pozwala na formatowanie pierwszej litery w bloku
+            tekstu.
+            Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+            nadanie jej koloru czerwonego.
+         </p>
+         <textarea class="example" disabled readonly>
+p
+{
+color:navy;
+font-size:30pt;
+}
+p:first-letter
+{
+color:red;
+font-size:100pt;
+}
+       </div>
+   </body>
+</html>
+<!--Tymur Aranzhii-->
+    </textarea>
+    <h2>CSS-kod</h2>
+    <textarea disabled readonly>body {
+      background-color: rgb(227, 255, 141);
+  }
+  .example {
+      width: 90%;
+      height: 65%;
+      resize: none;
+   }
+  
+  .box {
+      height: 55vh;
+      margin-bottom: 5vh;
+  }
+  /*Tymur Aranzhii*/</textarea>
+    <br>
+    <a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>
