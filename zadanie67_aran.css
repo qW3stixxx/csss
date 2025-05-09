@@ -10,7 +10,7 @@ p {
 }
 .first {
     font-size: 25pt;
-    color: lightgreen;
+    color: yellow;
 }
 
 .second::first-letter {
@@ -20,7 +20,7 @@ p {
 
 .second {
     font-size: 18pt;
-    color: lightgreen;
+    color: red;
 }
 
 h1::first-letter {
@@ -33,7 +33,7 @@ h1::first-letter {
 }
 
 .third::first-line {
-    color: red;
+    color: blue;
     font-size: 17pt;
 }
 
