@@ -1,0 +1,68 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<style>
+body {
+    background-color: gray;
+}
+textarea {
+    width: 90%;
+    height: 40%;
+    resize: none;
+ }
+
+ </style>
+</style>
+</head>
+<body>
+    <h2>HTML-kod</h2>
+    <textarea disabled readonly><!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aranzhii</title>
+    <!-- Styl zewnętrzny -->
+    <link href="zadanie62.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <p>wielkość liter dla akapitu P
+→Wiekość_liter=(5+reszta_z_dzielenia(8 przez 4)[5mm])
+Treść akapit (w języku polskim) zawiera: Uwagi na temat pisania KODU w CSS (patrz 1
+strona instrukcji tylko dwie uwagi)</p>
+    <p lang="pl">wielkość liter dla akapitu p:lang(pl)
+→Wiekość_liter=(6+reszta_z_dzielenia(8 przez 4)[6mm])
+Akapit (w języku polskim) zawiera: Definicja CSS - Kaskadowych Arkuszy Styli (patrz 1
+strona instrukcji)</p>
+    <p lang="en">wielkość liter dla akapitu p:lang(en)
+→Wiekość_liter=(10+reszta_z_dzielenia(8 przez 4)[10mm])
+Akapit (w języku angielskim→musisz dokonać tłumaczenia w tłumaczu Internetowym)
+zawiera: Definicja CSS - Kaskadowych Arkuszy Styli (patrz 1 strona instrukcji)</p>
+
+</body>
+</html></textarea>
+    <h2>CSS-kod</h2>
+    <textarea disabled readonly>p
+{
+font-size:5pt;
+color:yellow;
+}
+
+p:lang(pl)
+{
+font-size:6pt;
+font-weight:bold;
+color:red;
+}
+
+p:lang(en)
+{
+font-size:10pt;
+font-style:italic;
+color:blue;
+} </textarea>
+    <br>
+    <a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>
