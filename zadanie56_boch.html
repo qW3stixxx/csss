@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie CSS – Tymur Aranzhii</title>
+  <style>
+    /* Styl globalny na podstawie numeru w dzienniku: parzysty */
+    * {
+      font-size: 35pt; /* 30 + 5 liter imienia */
+      background-color: yellow;
+      color: blue;
+    }
+
+    /* Klasa nieuniwersalna */
+    p.klasa_nieuniwersalna_Aranzhii {
+      font-size: 33pt; /* 25 + 8 liter nazwiska */
+      color: purple;
+    }
+
+    /* Klasa uniwersalna */
+    .klasa_uniwersalna_Aranzhii {
+      font-size: 25pt; /* 20 + 10 (pazdzernik) */
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Akapit 1: selektor uniwersalny -->
+  <p>
+    <u>Akapit1</u> Aranzhii klasa 1P grupa 1<br>
+    Użyłem * gwiazdka dla selektora uniwersalnego.<br>
+    Parametry: wielkość 30 + 5 (litery w imieniu Tymur) = 35pt,<br>
+    numer w dzienniku 2 – parzysty, więc tło: żółte, kolor liter: niebieski.
+  </p>
+
+  <!-- Akapit 2: klasa nieuniwersalna -->
+  <p class="klasa_nieuniwersalna_Aranzhii">
+    <u>Akapit2</u> Aranzhii klasa 1P grupa 1<br>
+    Użyłem <code>p.klasa_nieuniwersalna_Aranzhii</code><br>
+    Parametry: wielkość 25 + 8 (litery w nazwisku Aranzhii) = 33pt,<br>
+    numer w dzienniku 2 – parzysty, kolor liter: fioletowy.
+  </p>
+
+  <!-- Akapit 3: klasa uniwersalna na znaczniku H1 -->
+  <h1 class="klasa_uniwersalna_Aranzhii">
+    <u>Akapit3</u> Aranzhii klasa 1P grupa 1<br>
+    Użyłem <code>.klasa_uniwersalna_Aranzhii</code> dla H1<br>
+    Parametry: 20 + 5 (maj) = 25pt, kolor liter: zielony.
+  </h1>
+
+  <!-- Akapit 4: klasa uniwersalna na znaczniku DIV -->
+  <div class="klasa_uniwersalna_Aranzhii">
+    <u>Akapit4</u> Aranzhii klasa 1P grupa 1<br>
+    Użyłem <code>.klasa_uniwersalna_Aranzhii</code> dla DIV<br>
+    Parametry: 20 + 10 (pazdzernik) = 30pt, kolor liter: czerwony.
+  </div>
+
+</body>
+</html>
