@@ -23,9 +23,11 @@
                 <td>Jednozadaniowy opis: 
  
      
-                    selektor {background-color: kolor;} 
-                     
-                    ?????????????????-->wpisz przykład </td>
+                   Składnia reguły:
+ selektor {background-color: kolor;}
+Wyraz selektor ma zastosowanie do wszystkich elementów, którym chcemy nadać tło.
+Natomiast jako kolor należy podać definicję koloru.
+</td>
                 
             </tr>
             <tr>
@@ -33,33 +35,75 @@
                 <td>Jednozadaniowy opis: 
  
      
-                    selektor {background-image: url(adres);} 
-                     
-                    background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");</td>
+                   Składnia reguły:
+ selektor {background-image: url(adres);}
+Dzięki temu poleceniu można ustalić tło obrazkowe dla danego elementu.
+Wyraz selektor ma zastosowanie do wszystkich elementów, którym chcemy nadać tło
+obrazka.
+ adres:
+względna ścieżka dostępu z miejsca w miejsce należy wpisać drogę uwzględniając wszystkie
+foldery wchodząc do folderu wpisujemy jego nazwę/ wychodząc z folderu wpisujemy ../ na
+końcu podajemy nazwę pliku z rozszerzeniem jeżeli jest to zewnętrzny arkusz CSS, to
+ścieżkę podajemy względem niego
+ "none" - usunie obrazek
+np.
+background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");
+</td>
                 
             </tr>
             <tr>
                 <td>Powtarzanie tła</td>
                 <td>Jednozadaniowy opis: 
+                    Składnia reguły:
+ selektor {background-repeat: powtarzanie;}
+Wyraz selektor ma zastosowanie do wszystkich elementów.
+ powtarzanie:
+ "repeat" - jednocześnie w pionie i poziomie - domyślnie
+ "repeat-x" - w poziomie
+ "repeat-y" - w pionie
+ "no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu
+Dzięki temu poleceniu można ustalić jeden z czterech sposobów powtarzania się obrazka
+jako tła
  
-                    selektor {????????????????????;} 
-                     
-                    ?????????????????-->wpisz przykład 
-                    Parametry: 
-                    ???????????????????????????????????????? 
-                    ????????????????????????????????????????</td>
+ p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll center;}
+</td>
                 
             </tr>
             <tr>
                 <td>Pozycja tła </td>
                 <td>Jednozadaniowy opis: 
  
-                    selektor {????????????????????;} 
-                   
-                  ?????????????????-->wpisz przykład 
-                  Parametry: 
-                  ???????????????????????????????????????? 
-                  ????????????????????????????????????????</td>
+                    Wyraz selektor ma zastosowanie do elementów blokowych.
+ pozycja:
+ jedna wartość:
+ jednostki miary:
+ "center" - obrazek na środku (w centrum)
+ "left" - obrazek po lewej
+ "right" - obrazek po prawej
+ "top" - obrazek na górze
+ "bottom" - obrazek na dole
+ jednostki miary - odległość od lewej
+krawędzi
+ dwie wartości (oddzielone spacją):
+ "left top" - lewy-górny róg
+ "left bottom" - lewy-dolny róg
+ "right top" - prawy-górny róg
+ "right bottom" - prawy-dolny róg
+ dwie jednostki miary - pierwsza z nich
+oznacza odległość od lewej krawędzi, a
+druga - od górnej
+ piksele - px
+ punkty edytorskie - pt
+ wysokość litery "x" - ex
+ wysokość aktualnej czcionki - em
+ centymetry lub milimetry - cm, mm
+ części dziesiętne centymetra pisane z
+kropką np.: 0.5cm
+ procent wielkości nadrzędnej - %
+ cale - in (1in=2.54cm)
+Dzięki temu poleceniu można ustalić pozycję obrazka w ramach tła. Niemożliwe to jest przy
+wartości atrybutu powtarzania: repeat.
+</td>
                 
             </tr>
             <tr>
@@ -67,11 +111,13 @@
                 <td>Jednozadaniowy opis: 
  
      
-                    selektor {????????????????????;} 
-                     
-                    ?????????????????-->wpisz przykład 
-                    Parametry: 
-                    ???????????????????????????????????????? 
+                   Składnia reguły:
+ selektor {background-attachment: zaczepienie;}
+ zaczepienie:
+ "scroll" - przewijanie tła (domyślnie)
+ "fixed" - tło nieruchome
+Domyślnie tło obrazkowe przesuwa się wraz z przewijaną stroną. Poleceniem tym można
+sprawić, że tło będzie nieruchome w czasie przewijania zawartości strony.
                     </td>
                 
             </tr>
@@ -80,27 +126,60 @@
                     atrybutów tła</td>
                 <td>Jednozadaniowy opis: 
                     
-                    ?????????????????-->wpisz przykład</td>
+                    selektor {background: wartości atrybutów;}
+Wyraz selektor ma zastosowanie do wszystkich elementów.
+Natomiast wartości atrybutów to konkretne wartości atrybutów związane z tłem, wpisane we
+właściwej kolejności i oddzielone spacjami. Można niektóre pominąć.
+wartości atrybutów:
+• kolor tła
+• tło obrazkowe
+• powtarzanie tła
+• zaczepienie tła
+• pozycja tła
+                Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące tła.
+Przykład:
+Po wpisaniu na przykład takiej reguły w arkuszu CSS:
+ p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll center;}</td>
                 
             </tr>
             <tr>
                 <td>Gradient 
                     liniowy </td>
                 <td>Jednozadaniowy opis: 
-                    selektor {????????????????????;}  
-                    ?????????????????-->wpisz przykład 
-                    Parametry: 
-                    ????????????????????????????????????????</td>
+                    Selektorem może być praktycznie dowolny znacznik:
+• p - akapit,
+• h1 – tytuł
+• td - komórka tabeli
+Kierunek określa sposób rozłożenia barw. Można go podać na dwa sposoby:
+słowa kluczowe
+ to top - przejście kolorów nastąpi pionowo z dołu do góry (odpowiednik 0deg)
+ to right top - ukośnie z lewego-dolnego do prawego-górnego narożnika
+ to right - poziomo z lewej do prawej strony (odpowiednik 90deg)
+ to right bottom - ukośnie z lewego-górnego do prawego-dolnego narożnika
+ to bottom - pionowo z górny do dołu (odpowiednik 180deg - domyślnie)
+ to left bottom - ukośnie z prawego-górnego do lewego-dolnego narożnika
+ to left - poziomo z prawej do lewej strony (odpowiednik 270deg)
+ to left top - ukośnie z prawego-dolnego do lewego-górnego narożnika
+kąt - liczony zgodnie z ruchem wskazówek zegara
+z wartością:
+0deg skierowaną pionową w górę,
+180deg - pionowo w dół</td>
                 
             </tr>
             <tr>
                 <td>Gradient 
                     promienisty</td>
                 <td>Jednozadaniowy opis: 
-                    selektor {????????????????????;} 
-                    ?????????????????-->wpisz przykład 
-                    Parametry: 
-                    ????????????????????????????????????????</td>
+                  selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2
+odległość2...) }
+Selektorem może być praktycznie dowolny znacznik:
+• p - akapit,
+• h1 – tytuł
+• td - komórka tabeli
+Jako kształ należy wpisać:
+ circle - okrąg (domyślnie gdy jako rozmiar podano pojedynczy promień, określony w
+jednostkach długości, a nie w procentach)
+ ellipse - elipsa</td>
                 
             </tr>
             
